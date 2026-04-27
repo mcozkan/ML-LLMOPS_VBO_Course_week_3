@@ -1,0 +1,44 @@
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+vbo_env/
+venv/
+env/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.ipynb_checkpoints/
+
+### Jupyter Notebook ###
+.virtual_envs/
+.swp
+*.ipynb_checkpoints
+.ipython/
+
+### VS Code ###
+.vscode/
+.history/
+*.code-workspace
+
+### MLOps & Data (Kritik Kısım) ###
+# Veri dosyalarını asla git'e atmıyoruz, DVC ile yöneteceğiz
+data/
+!data/.gitkeep
+*.csv
+*.parquet
+*.jsonl
+*.zip
+*.gz
+
+### MLflow & DVC ###
+.dvc/
+!/.dvc/config
+!/.dvc/.gitignore
+mlruns/
+mlartifacts/
+.DS_Store
+
+### Operating System ###
+/data/
