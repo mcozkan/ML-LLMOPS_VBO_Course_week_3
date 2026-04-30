@@ -32,6 +32,7 @@ data/
 *.zip
 *.gz
 
+
 ### MLflow & DVC ###
 .dvc/
 !/.dvc/config
@@ -41,4 +42,7 @@ mlartifacts/
 .DS_Store
 
 ### Operating System ###
-/data/
+# Sadece veri dosyalarını engelle, .dvc uzantılı dosyaları takip et
+data/**
+!data/**/
+!**.dvc
