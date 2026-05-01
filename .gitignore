@@ -40,6 +40,11 @@ data/
 mlruns/
 mlartifacts/
 .DS_Store
+mlflow.db
+mlruns/
+http:/
+__pycache__/
+
 
 ### Operating System ###
 # Sadece veri dosyalarını engelle, .dvc uzantılı dosyaları takip et
